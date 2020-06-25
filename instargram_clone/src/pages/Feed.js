@@ -17,7 +17,7 @@ class Feed extends Component {
           <header>
             <img src={more} alt="Mais" />
           </header>
-          {this.handleSubmi}
+          {more}
           <footer>
             <div className="actions">
               <button type="button">

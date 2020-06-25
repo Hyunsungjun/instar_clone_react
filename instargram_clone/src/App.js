@@ -10,7 +10,9 @@ function App() {
     <BrowserRouter>
       <Header />
       <Routes />
-    <Feed />
+      <Routes />
+      <Routes />
+
     </BrowserRouter>
   );
 }

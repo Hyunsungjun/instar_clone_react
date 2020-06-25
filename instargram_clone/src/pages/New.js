@@ -23,8 +23,7 @@ class New extends Component {
     data.append('description', this.state.description);
     data.append('hashtags', this.state.hashtags);
 
-    this.props.history.push('/'); //리다이렉트 함수 
-    
+    this.props.history.push('/'); //리다이렉트 함수
   };
 
   handleImageChance = (e) => {
@@ -32,11 +31,13 @@ class New extends Component {
   };
 
   handleChange = (e) => {
-  this.setState({ [e.target.name]: e.target.value });
+    this.setState({ [e.target.name]: e.target.value });
+  };
+  handlePush = (e) => {
+    this.setState()
   };
 
   render() {
-
     return (
       <form id="new-post" onSubmit={this.handleSubmit}>
         <input type="file" onChange={this.handleImageChance} />
